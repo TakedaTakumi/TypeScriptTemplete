@@ -1,0 +1,2 @@
+# TypeScriptTemplete
+TypeScript用のテンプレートプロジェクト
