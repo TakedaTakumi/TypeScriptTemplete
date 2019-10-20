@@ -1,0 +1,31 @@
+{
+  "name": "TypeScriptTemplete",
+  "version": "1.0.0",
+  "description": "TypeScript用のテンプレートプロジェクト",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "ts-node",
+    "lint": "tslint --exclude **/*.d.ts --project . --fix 'src/**/*.ts' 'test/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TakedaTakumi/TypeScriptTemplete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TakedaTakumi/TypeScriptTemplete/issues"
+  },
+  "homepage": "https://github.com/TakedaTakumi/TypeScriptTemplete#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.6.4"
+  }
+}
